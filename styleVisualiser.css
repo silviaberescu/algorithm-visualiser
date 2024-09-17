@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaedc9dd;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif; 
+    color: #55ab58; 
+    text-align: center; 
+    font-size: 45px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    letter-spacing: 1px; 
+    text-shadow: 2px 2px 5px rgba(75, 74, 6, 0.397); 
+}
+
+button {
+    background-color: #55ab58;
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 5px 10px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #369439; 
+    transform: scale(1.10); 
+}
+
+#pauseButton {
+    background-color: #edad18; 
+}
+
+#pauseButton:hover {
+    background-color: #dca117; 
+}
